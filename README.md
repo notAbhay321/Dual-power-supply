@@ -141,22 +141,7 @@ All simulations were built in **NI Multisim**. Open the `.ms14` files in Multisi
 | [`220v_to_3v3_short_ckt_protection.ms14`](220v_to_3v3_short_ckt_protection.ms14) | Short circuit protection on 3.3V rail |
 
 See [`simulation/README.md`](simulation/README.md) for setup instructions.
-
 ---
-
-## Team
-
-| Name | Role |
-|------|------|
-| Karaveerappa | Circuit design, hardware assembly |
-| Namit | Simulation, component calculations |
-| Vinay | PCB layout, testing |
-| Abhay V.H. | Documentation, results analysis |
-
-**Guide:** Prof. Kiran M.R.
-
----
-
 ## License
 
 MIT License — see [`LICENSE`](LICENSE)
