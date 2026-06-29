@@ -34,6 +34,12 @@ After the SR560 bridge rectifier and 10,000 µF filter capacitor:
 
 Both outputs were stable under varying load conditions.
 
+**5V Rail:**
+![5V Simulation](../5v_simulation.jpeg)
+
+**3.3V Rail:**
+![3.3V Simulation](../3v3_simulation.jpeg)
+
 ### Ripple Analysis
 
 | Rail | Ripple Voltage |
@@ -58,6 +64,10 @@ The 33 µH inductor smoothed switching current effectively. SR560 freewheeling d
 ## Phase 2: Hardware Prototype
 
 The prototype was built on a dotted PCB board. Components soldered manually.
+
+![Hardware Prototype](../hardware_220_to_5v&3v3.jpeg)
+
+*Assembled PCB — full circuit from 230V AC input to 5V and 3.3V regulated outputs.*
 
 ### Setup
 

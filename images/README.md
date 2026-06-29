@@ -1,24 +1,37 @@
 # Images
 
-Place your project images in this folder and reference them from the docs.
+Additional diagrams and reference screenshots.
 
-## Suggested files to add
+---
 
-| Filename | Description |
-|----------|-------------|
-| `block-diagram.png` | Functional block diagram (from report Figure 4.1) |
-| `flowchart.png` | Operational flowchart (from report Figure 5.1) |
-| `simulation-transformer.png` | Transformer waveform screenshot (Figure 7.1) |
-| `simulation-outputs.png` | 5V and 3.3V simulated outputs (Figure 7.2) |
-| `hardware-top.jpg` | Top view of assembled PCB (Figure 7.3 left) |
-| `hardware-testing.jpg` | Testing setup with multimeter (Figure 7.3 right) |
-| `schematic-5v-rail.png` | Full schematic of 5V buck converter stage |
-| `schematic-3v3-rail.png` | Full schematic of 3.3V buck converter stage |
+## What's in the Root (not this folder)
 
-## Adding images to docs
+The main project visuals are stored at the **repository root** for easy GitHub rendering:
 
-Reference images in any markdown file like this:
+| File | Description |
+|------|-------------|
+| [`5v_simulation.jpeg`](../5v_simulation.jpeg) | 5V buck converter Multisim output |
+| [`3v3_simulation.jpeg`](../3v3_simulation.jpeg) | 3.3V buck converter Multisim output |
+| [`hardware_220_to_5v&3v3.jpeg`](../hardware_220_to_5v&3v3.jpeg) | Assembled PCB prototype photo |
+| [`output_video_5v and 3.3v.mp4`](../output_video_5v%20and%203.3v.mp4) | Live demo — both rails measured under load |
+
+---
+
+## Suggested Additions to This Folder
+
+If you want to add more visuals, drop them here and reference them in the relevant `docs/` file:
+
+| Suggested Filename | What to Add |
+|--------------------|-------------|
+| `block-diagram.png` | Screenshot of the functional block diagram |
+| `flowchart.png` | Screenshot of the operational flowchart |
+| `kicad-schematic.png` | Exported schematic from KiCad |
+| `kicad-pcb-layout.png` | PCB layout top view from KiCad |
+| `oscilloscope-ripple.jpg` | Oscilloscope screenshot showing <30mV ripple |
+| `full-setup.jpg` | ESP32 + sensors + relays powered by this supply |
+
+### How to reference from a doc
 
 ```markdown
-![Block Diagram](../images/block-diagram.png)
+![KiCad Schematic](../images/kicad-schematic.png)
 ```
