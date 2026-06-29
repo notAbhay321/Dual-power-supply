@@ -84,19 +84,6 @@ esp32-power-supply/
 
 ---
 
-## Team
-
-| Name | Role |
-|------|------|
-| Karaveerappa | Circuit design, hardware assembly |
-| Namit | Simulation, component calculations |
-| Vinay | PCB layout, testing |
-| Abhay V.H. | Documentation, results analysis |
-
-**Guide:** Prof. Kiran M.R.
-
----
-
 ## License
 
 MIT License — see [`LICENSE`](LICENSE)
