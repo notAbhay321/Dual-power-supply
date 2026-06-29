@@ -65,9 +65,11 @@ This project builds a **dedicated dual-rail power supply** that separates:
        → LM2596 Buck #1 → 5V Rail  → Relays, Ultrasonic Sensor
        → LM2596 Buck #2 → 3.3V Rail → ESP32, Soil Moisture Sensor
 ```
+### Full Block Diagram and Flowchart
 
-Full block diagram and flowchart: ![Block diagram](flinal_bloack_diagram.png)
-
+<p align="center">
+  <img src="flinal_bloack_diagram.png" alt="Block diagram" width="350">
+</p>
 ---
 
 ## Repository Structure
