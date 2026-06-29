@@ -1,6 +1,6 @@
-# ESP32 Smart Automation — Regulated AC to DC Multi-Voltage Power Supply
+# ESP32 Smart Automation : Regulated AC to DC Multi-Voltage Power Supply
 
-A custom-designed regulated power supply that converts **230V AC mains** into stable **5V and 3.3V DC** outputs for ESP32-based smart automation systems (water tank management, irrigation control, etc.).
+A custom designed regulated power supply that converts **230V AC mains** into stable **5V and 3.3V DC** outputs for ESP32 based smart automation systems (water tank management, irrigation control, etc.).
 
 > **Total BOM Cost: ~₹583** | **Efficiency: 88–90%** | **Ripple: <30 mV**
 
@@ -8,14 +8,14 @@ A custom-designed regulated power supply that converts **230V AC mains** into st
 
 ## Why This Project Exists
 
-Off-the-shelf USB adapters and chargers fail in 24/7 automation scenarios because:
+Off the shelf USB adapters and chargers fail in 24/7 automation scenarios because:
 
 - They provide only one voltage rail
 - They introduce electrical noise → sensors misread
 - Voltage sags during ESP32 WiFi transmission → random controller resets
 - They lack proper isolation from 230V AC (safety risk outdoors)
 
-This project builds a **dedicated dual-rail power supply** that separates:
+This project builds a **dedicated dual rail power supply** that separates:
 - **5V rail** → Relay modules, ultrasonic sensors
 - **3.3V rail** → ESP32 controller, soil moisture sensors
 
@@ -29,9 +29,9 @@ This project builds a **dedicated dual-rail power supply** that separates:
 | DC Output 1 | 5V @ 2A |
 | DC Output 2 | 3.3V @ 1A |
 | Ripple Voltage | < 30 mV (3.3V rail) |
-| Regulation IC | LM2596-ADJ (×2) |
+| Regulation IC | LM2596 ADJ (×2) |
 | Efficiency | 88–90% |
-| Isolation | Transformer-based galvanic isolation |
+| Isolation | Transformer based galvanic isolation |
 
 ---
 
