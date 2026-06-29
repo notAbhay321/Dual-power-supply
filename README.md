@@ -66,7 +66,7 @@ This project builds a **dedicated dual-rail power supply** that separates:
        → LM2596 Buck #2 → 3.3V Rail → ESP32, Soil Moisture Sensor
 ```
 
-Full block diagram and flowchart: [`docs/03-system-design.md`](docs/03-system-design.md)
+Full block diagram and flowchart: [Block diagram](flinal_bloack_diagram.png)
 
 ---
 
